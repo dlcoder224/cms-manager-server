@@ -13,6 +13,7 @@ const users = require('./routes/users')
 
 // error handler
 onerror(app)
+require('./config/db')
 
 // middlewares
 app.use(bodyparser({
